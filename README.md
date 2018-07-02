@@ -1,5 +1,5 @@
 # Mi5sPlus-MIUI10-Porting
-A magisk module enabling you to use MIUI10(Oreo-based) on Mi 5s Plus.
+A magisk module enables you to use MIUI10(Oreo-based) on Mi 5s Plus.
 
 
 See [here](./magisk_module/README.md) for the modules's information.
