@@ -1,0 +1,7 @@
+id=mi5spfix
+name=Mi 5s Plus Porting Fix
+version=v1.3
+versionCode=13
+author=moposx
+description=replace the specific files of Mi 5s Plus(natrium) in MIUI 10 ROM for MIMIX
+minMagisk=1500
