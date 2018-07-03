@@ -85,7 +85,7 @@
     <!--whether the device supports steps_provider-->
     <bool name="support_steps_provider">true</bool>
     <!--whether the device support hall sensor-->
-    <bool name="support_hall_sensor">false</bool>
+    <bool name="support_hall_sensor">true</bool>
     <!--whether the device supports hifi-->
     <bool name="support_hifi">false</bool>
     <!--whether the device supports agps parameters-->
@@ -183,9 +183,9 @@
     <!--whether support groupshot mode  in camera-->
     <bool name="support_camera_groupshot">true</bool>
     <!--whether support raw mode  in camera-->
-    <bool name="support_camera_raw">false</bool>
+    <bool name="support_camera_raw">true</bool>
     <!--whether support snap with screen off  in camera-->
-    <bool name="support_camera_quick_snap">false</bool>
+    <bool name="support_camera_quick_snap">true</bool>
     <!--whether support psensor in pocket mode (true by default)-->
     <bool name="support_psensor_pocket_mode">false</bool>
     <!--whether compass support tilt rotate calibrate  -->
@@ -223,12 +223,12 @@
     <!--total steps number of camera compensation-->
     <float name="camera_exposure_compensation_steps_num">12.0</float>
     <!--Left margin of count down parent layout for front camera-->
-    <float name="camera_front_count_down_margin">-0.7967</float>
+    <float name="camera_front_count_down_margin">0.2698</float>
     <bool name="front_fingerprint_sensor">false</bool>
     <!--whether the device supports smart cover with small window-->$
-    <bool name="support_small_win_cover">false</bool>
+    <bool name="support_small_win_cover">true</bool>
     <!--0: x7 type; 1: A1 type -->
-    <integer name="small_win_cover_type">1</integer>
+    <integer name="small_win_cover_type">3</integer>
     <integer name="smartcover_smallwindow_left">0</integer>
     <integer name="smartcover_smallwindow_top">0</integer>
     <integer name="smartcover_smallwindow_right">1080</integer>
@@ -278,6 +278,8 @@
     <bool name="support_new_silentmode">true</bool>
     <!-- whether CN hardware can flash Global rom -->
     <bool name="enable_flash_global">true</bool>
+    <!--whether support stereo in camera-->
+    <bool name="is_support_stereo">true</bool>
     <!--whether front camera support bokeh or not-->
     <bool name="support_front_bokeh">true</bool>
     <!--whether back camera support bokeh or not-->
