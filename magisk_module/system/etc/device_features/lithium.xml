@@ -35,7 +35,7 @@
     <!--whether the device supports stereo record-->
     <bool name="support_stereo_record">true</bool>
     <!--whether the device supports hd record param-->
-    <bool name="support_hd_record_param">true</bool>
+    <bool name="support_hd_record_param">false</bool>
     <!--whether the device supports screen paper mode-->
     <bool name="support_screen_paper_mode">true</bool>
     <!--whether the device supports led light-->
