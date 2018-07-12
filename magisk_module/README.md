@@ -14,6 +14,7 @@
 
 ## Description
 This module will replace the specific files of Mi 5s Plus(natrium) in MIUI 10 ROM for MIMIX(CN)
+
 #### Already Fixed:
 -speaker
 -equalizer (Hi-Fi doesn't work for there is no such hardware)
@@ -23,6 +24,7 @@ This module will replace the specific files of Mi 5s Plus(natrium) in MIUI 10 RO
 -hand-free while dialing
 #### Bugs to fix:
 -Reading mode and color settings (they just don't work, no FC)
+
 ## Changelog
 v1.3 --updated relevant files of the latest MIUI 10 rom package and fixed hands-free in calling
 v1.2 --fixed ir on natrium using files taken from MI Note 2;fixed button backlight;screen adjustment(color and reading mode) still not available
@@ -30,12 +32,17 @@ v1.1 --add ir fix and revert wrong audio configurations and gps modifications(wh
 v1.0 --first fix to ensure the speaker's availablity
 ## Requirements
 MIUI 10 for MIMIX (first tested on MIUI 10 8.6.6,and should work in following updates.)
+
 ## Instructions
 Just flash it in Magisk app and reboot.
 Currently Viper4android is supported while system's equlizer is still available.
 
+## Disclaimer
+Use at your own risk.
+
 ## Author(s)
 Moposx @ Coolapk and XDA
+
 ## Thanks for:
 Mokee and Omnirom's repos on github
 

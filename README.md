@@ -11,3 +11,13 @@ On Jul. 2 MIUI relesed a alpha version MIUI 10 8.7.2 for Mi 5s Plus, which, to o
 However, from day when Mi Mix got its first MIUI 10 ROM(Oreo-based), someone found that it also works on Mi 5s Plus (they share a common SoC msm8996pro), so I made this module and try to fix bugs.There are still some  bugs (Color settings and Reading mode is unavailable), I hope someone can fix it.
 
 For Mi 5s,it shares the same SoC with Mi Note 2. So similar way to make MIUI10 works on Mi 5s does exist.
+
+
+# Requirements：
+1. get MIUI 10 ROM for MI MIX (and delete the code which verifies the model)
+2. Install magisk;
+3. Install this module;
+4. (RECOMMENDED) wipe cache and reboot.
+
+# Disclaimer:
+Use the module at your own risk.

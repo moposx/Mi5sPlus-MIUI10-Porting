@@ -1,0 +1,2 @@
+# Don't track .so libraries
+.so
