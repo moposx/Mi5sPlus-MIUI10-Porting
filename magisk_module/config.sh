@@ -41,11 +41,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "             Mi 5s Plus MIUI 10    "
-  ui_print "     the module fixes camera and speaker    "
-  ui_print "     on natrium running MIUI10 for MIMIX   "
-  
-
+  ui_print "  Mi 5s Plus MIUI 10 Porting Fix  "
 }
 
 ##########################################################################################
