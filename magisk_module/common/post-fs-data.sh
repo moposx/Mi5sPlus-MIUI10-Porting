@@ -5,3 +5,10 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 # More info in the main Magisk thread
+
+# Run stock shell scripts.
+# run 'init.leds.sh'
+fork $MODPATH/system/etc/init.leds.sh
+
+#run 'init.tpmaker.sh'
+fork $MODPATH/system/etc/init.tpmaker.sh
