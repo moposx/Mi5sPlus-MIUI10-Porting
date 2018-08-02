@@ -286,4 +286,6 @@
     <bool name="is_back_bokeh_supported">true</bool>
     <!--whether camera support portrait mode switch -->
     <bool name="camera_is_support_portrait_switch">true</bool>
+    <!--battery capacity typ of the device-->
+    <string name="battery_capacity_typ">3800</string>
 </features>
