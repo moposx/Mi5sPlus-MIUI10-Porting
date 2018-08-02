@@ -3,3 +3,6 @@
 
 # and zip packages
 .zip
+
+# Don't track macOS's DS_Store
+.DS_Store
