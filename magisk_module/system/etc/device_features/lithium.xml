@@ -288,4 +288,6 @@
     <bool name="camera_is_support_portrait_switch">true</bool>
     <!--battery capacity typ of the device-->
     <string name="battery_capacity_typ">3800</string>
+    <!--whether support freeform mode in game mode-->
+    <bool name="support_freeform_reply">true</bool>
 </features>
