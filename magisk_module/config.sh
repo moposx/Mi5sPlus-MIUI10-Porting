@@ -40,8 +40,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
+  ui_print "**********************************"
   ui_print "  Mi 5s Plus MIUI 10 Porting Fix  "
+  ui_print "**********************************"
 }
 
 ##########################################################################################
@@ -88,18 +89,18 @@ set_permissions() {
   set_perm  $MODPATH/system/etc/permissions/*.xml      0       0       0644
   set_perm  $MODPATH/system/etc/calib.cfg   0       0       0644
   set_perm  $MODPATH/system/etc/init.tpmaker.sh   0       0       0644
-  set_perm  $MODPATH/system/etc/init.leds.sh   0       0       0644  
+  set_perm  $MODPATH/system/etc/init.leds.sh   0       0       0644
   set_perm  $MODPATH/system/etc/qdcm*.xml   0       0       0644
   set_perm  $MODPATH/system/vendor/etc/*.conf      0       0       0644
   set_perm  $MODPATH/system/vendor/etc/*.txt      0       0       0644
   set_perm  $MODPATH/system/vendor/etc/*.xml      0       0       0644
   set_perm  $MODPATH/system/lib/hw/*.so      0       0       0644
-  set_perm  $MODPATH/system/vendor/lib/hw/*.so      0       0       0644  
+  set_perm  $MODPATH/system/vendor/lib/hw/*.so      0       0       0644
   set_perm  $MODPATH/system/lib64/hw/*.so     0       0       0644
   set_perm  $MODPATH/system/vendor/lib64/hw/*.so     0       0       0644
   set_perm  $MODPATH/system/vendor/bin/hw/android.hardware.ir@1.0-service      0       0       0644
-  set_perm  $MODPATH/system/etc/device_features/lithium.xml      0       0       0644 
-  
+  set_perm  $MODPATH/system/etc/device_features/lithium.xml      0       0       0644
+
 }
 
 ##########################################################################################
@@ -111,4 +112,3 @@ set_permissions() {
 # update-binary. Refrain from adding code directly into update-binary, as it will make it
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
-
