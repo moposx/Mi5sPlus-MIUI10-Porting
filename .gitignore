@@ -2,7 +2,7 @@
 .so
 
 # and zip packages
-.zip
+*.zip
 
 # Don't track macOS's DS_Store
 .DS_Store
